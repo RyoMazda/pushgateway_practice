@@ -1,4 +1,4 @@
-# Prometheus practice
+# pushgateway practice
 
 ```sh
 docker-compose up
@@ -20,4 +20,3 @@ python push.py
 ## Refs
 - https://qiita.com/rhirabay/items/103ec435a429bf459de8
 
-# pushgateway_practice
