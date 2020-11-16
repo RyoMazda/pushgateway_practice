@@ -19,4 +19,5 @@ python push.py
 
 ## Refs
 - https://qiita.com/rhirabay/items/103ec435a429bf459de8
+- https://qiita.com/loftkun/items/28cdf77ea9269e255a53
 
