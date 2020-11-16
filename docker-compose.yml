@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  pushgateway:
+    image: prom/pushgateway
+    ports:
+      - 9091:9091
+    tty: true
+  prometheus:
+    image: prom/prometheus
+    ports:
+      - 9090:9090
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    tty: true
+    depends_on:
+      - pushgateway
